@@ -3,4 +3,16 @@ name = "lapis"
 version = "0.1.0"
 authors = ["Giovanni Sakti <giosakti@gmail.com>"]
 
+[lib]
+name = "lapis_lib"
+path = "lib/lapis.rs"
+
+[[bin]]
+name = "lapis_repl"
+path = "src/repl.rs"
+
+[[bin]]
+name = "lapis_exe"
+path = "src/main.rs"
+
 [dependencies]
